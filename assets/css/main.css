@@ -1,87 +1,115 @@
 .tomato {
     background-color: tomato;
     height: 100px;
+    border: solid 1px black;
 }
 
 /* Grid */
 
 
-.container {
+.container-g {
+    max-width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.col-12 {
-    flex-basis: 100%;
+
+.row-g {
+    display: flex;
+    width: 100%;
+}
+
+.col-12-g {
+    width: 100%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-11{
-    flex-basis: ;
+.col-11-g {
+    width: 91.6666666%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-10{
-    flex-basis: ;
+.col-10-g {
+    width: 83.33333333%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-9{
-    flex-basis: ;
+.col-9-g {
+    width: 75%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-8{
-    flex-basis: ;
+.col-8-g {
+    width: 66.66666666666667%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-7{
-    flex-basis: ;
+.col-7-g {
+    width: 85.33333334;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-6 {
-    flex-basis: 50%;
+.col-6-g {
+    width: 50%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-5{
-    flex-basis: 41.666%;
+.col-5-g {
+    width: 41.666%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-4{
-    flex-basis: 33.333%;
+.col-4-g {
+    width: 33.333%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-3{
-    flex-basis: 25%;
+.col-3-g {
+    width: 25%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-2{
-    flex-basis: ;
+.col-2-g {
+    width: 16.66666666667%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.col-1{
-    flex-basis: ;
+.col-1-g {
+    width: 8.333333%;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-.row {
-    flex-direction: column;
+
+
+/* Google Fonts Includes */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* Fonts */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
+
+.small {
+    font-size: .7em;
+}
+
+.big {
+    font-size: 2em;
+}
+
