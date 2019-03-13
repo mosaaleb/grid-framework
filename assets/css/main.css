@@ -1,0 +1,87 @@
+.tomato {
+    background-color: tomato;
+    height: 100px;
+}
+
+/* Grid */
+
+
+.container {
+    display: flex;
+}
+
+.col-12 {
+    flex-basis: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-11{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-10{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-9{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-8{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-7{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-6 {
+    flex-basis: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-5{
+    flex-basis: 41.666%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-4{
+    flex-basis: 33.333%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-3{
+    flex-basis: 25%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-2{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.col-1{
+    flex-basis: ;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.row {
+    flex-direction: column;
+}
